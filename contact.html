@@ -1,19 +1,42 @@
 <html>
 <head>
     <title>Hello</title>
+    <link rel="stylesheet" href="main.css">
     </head>
     
-    
-    <nav>
-        <a href="index.html"> <button type="button">Home</button></a>
-        <a href="about.html"> <button type="button">About</button></a>
-        <a href="projects.html"> <button type="button">Projects</button></a>
-        <a href="skills.html"> <button type="button">Skills</button></a>
-         <a href="contact.html"> <button type="button">Contact</button></a>
-    </nav>
     <body>
+        <div id="bodyyy">
+    <nav id="nav">
+        <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+        
+    </nav>
+    
     <form>
         <div>
-        <input type="email" placeholder="email..." alt="Enter Email" required="required"></div></form>
+        <input type="email" placeholder="Your email..." alt="Enter Email" required="required"></div>
+        <div>
+        <input type="text" placeholder="Your name..." alt="Enter Name" required="required"></div>
+        <div>
+        <input type="text" placeholder="Your phone number..." alt="Enter phone number" required="required"></div>
+        <div>
+            <select>
+            <option value="QA">QA Employee</option>
+            <option value="Developer">Developer</option>
+            <option value="Recruiter">Recruiter</option>
+            </select>
+        </div>
+        <div>
+        <textarea rows="4" cols="50" name="comment" form="usrform">Comments...</textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </div>
+        </form>
+        </div>
     </body>
 </html>
